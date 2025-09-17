@@ -23,5 +23,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "rivelop26-porfolio"
-          entrypoint: "https://deno.land/std@0.208.0/http/file_server.ts"
+          entrypoint: jsr:@std/http/file-server
           root: dist
