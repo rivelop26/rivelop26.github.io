@@ -10,12 +10,12 @@ const { items = [] }: { items: (keyof typeof menu)[] } = Astro.props as {
 };
 
 const menu = {
-  about: { name: "About Me", path: "/about-me" },
-  blog: {
+  // about: { name: "About Me", path: "/about-me" },
+  /*blog: {
     name: "Blog",
     path: "/blog/",
     dropdown: [{ name: "All Posts", path: "/blog/posts/" }],
-  },
+  },*/
   home: { name: "Home", path: "/#home" },
   experience: { name: "Experience", path: "/#experience" },
   projects: { name: "Projects", path: "/#projects" },
@@ -114,7 +114,7 @@ const baseClasses = {
       const item = menu[key as keyof typeof menu];
       if (!item) return null;
 
-      if ("dropdown" in item) {
+      /*if ("dropdown" in item) {
         return (
           <div class={baseClasses.dropdown}>
             <a
@@ -142,7 +142,7 @@ const baseClasses = {
             </div>
           </div>
         );
-      }
+      }*/
 
       return (
         <a
