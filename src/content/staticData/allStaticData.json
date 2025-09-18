@@ -1,17 +1,17 @@
 {
-  "profileImage": "/images/efeeleprofile.webp",
-  "profileAlt": "Photo of Fernando Aldair López Ponce (EFEELE) for the blog",
+  "profileImage": "/images/profile.webp",
+  "profileAlt": "Photo of Santiago Rivera López for the blog",
   "profileLink": "/about-me",
-  "profileTitle": "FrontEnd Developer",
+  "profileTitle": "FullStack Developer",
   "profileName": "Santiago Rivera López",
-  "github": "https://github.com/EFEELE/NeonMint",
+  "github": "https://github.com/rivelop26",
   "githubText": "Do you like this blog's design?",
-  "portfolioImage": "/images/portfolio.webp",
-  "email": "hello@efeele.dev",
-  "linkedin": "https://www.linkedin.com/in/efeele/",
-  "instagram": "https://www.instagram.com/efeele.dev/",
-  "youtube": "https://www.youtube.com/@efeeledev",
-  "alias": "EFEELE",
+  "portfolioImage": "/images/porfolio2.webp",
+  "email": "santiago.rivera.lpz@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/santiago-rivera-l%C3%B3pez-710664338/",
+  "instagram": "https://www.instagram.com/rivelop_s/",
+  "youtube": "https://www.youtube.com/@santiagoriveralopez2021",
+  "alias": "STGRL",
   "contactSectionTitle": "Ready to take your idea to the next level?",
   "contactSectionSubtitle": "Let's work together.",
   "contactSectionButtonText": "Contact Me",
@@ -24,16 +24,16 @@
   "emailIconName": "envelope",
   "hobbies": [
     "Writing",
-    "Camping",
+    "Play volleyball",
     "Coffee",
     "Music",
     "Movies",
-    "Board Games"
+    "Dance"
   ],
-  "pageTitle": "NeonMint by | Fernando Lopez | EFEELE",
-  "pageDescription": "Is a modern, minimalist template crafted for developers and digital creatives.",
+  "pageTitle": "Porfolio | Santiago Rivera López",
+  "pageDescription": "This is a presentation of my professional career over the past 4 years so you can get to know me a little.",
   "OGImage": {
     "url": "/images/imagedefault.webp",
-    "alt": "Screenshot of a web portfolio with a modern and dark design. Featuring Santiago Rivera López, a Frontend Developer with 8 years of experience, highlighting his passion for development and technology. Includes contact sections, projects, and a technology stack with technologies like HTML5, JavaScript, TypeScript, Angular, Node.js, CSS, Tailwind, and more."
+    "alt": "Screenshot of a web portfolio with a modern and dark design. Featuring Santiago Rivera López, a Full Stack Developer with 4 years of experience, highlighting his passion for development and technology. Includes contact sections, projects, and a technology stack with technologies like Python, JavaScript, TypeScript, React, Node.js, CSS, Tailwind, and more."
   }
 }
