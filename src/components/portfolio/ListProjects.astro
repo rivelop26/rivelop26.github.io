@@ -74,7 +74,7 @@ allPosts.sort(
 
 <script>
   document.querySelector("#moreProjects")?.addEventListener("click", () => {
-    const container = document.querySelector("#containerProjects");
+    /*const container = document.querySelector("#containerProjects");
     const moreProjectsBtn = document.querySelector("#moreProjects");
 
     if (container && moreProjectsBtn) {
@@ -85,6 +85,19 @@ allPosts.sort(
       moreProjectsBtn.classList.add("hidden");
       setTimeout(() => {
         moreProjectsBtn.classList.add("hidden");
+      }, 500);
+    }*/
+    const container = document.querySelector("#containerProjects");
+    const moreProjects = document.querySelector("#moreProjects");
+
+    if (container && moreProjects) {
+      // Cambiar la altura limitada por altura automática
+      container.classList.remove("max-h-[150vh]");
+      container.classList.add("max-h-none");
+
+      // Ocultar el contenedor del botón después de la animación
+      setTimeout(() => {
+        moreProjects.classList.add("hidden");
       }, 500);
     }
   });
