@@ -5,9 +5,25 @@ export interface Language {
 }
 
 export const languages: Record<string, Language> = {
-  angular: {
-    name: "Angular",
-    iconName: "angular",
+  react: {
+    name: "React",
+    iconName: "react",
+  },
+  aws: {
+    name: "AWS",
+    iconName: "aws",
+  },
+  lambda: {
+    name: "AWS Lambda",
+    iconName: "lambda",
+  },
+  terraform: {
+    name: "Terraform",
+    iconName: "terraform",
+  },
+  gcp: {
+    name: "GCP",
+    iconName: "gcp",
   },
   astro: {
     name: "Astro",
